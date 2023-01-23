@@ -78,9 +78,7 @@ export class App extends Component {
               <Filter
                 filterValue={this.state.filter}
                 onChange={this.changeFilter}
-                filter={this.state.filter}
-                onFilterChange={this.changeFilter}
-              />
+                     />
               <ContactList
                 contacts={this.filterContacts()}
                 onDelete={this.deleteContact}
